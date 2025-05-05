@@ -50,3 +50,42 @@ If you have a general question about Provider, the best places to go are:
 
 If you run into an issue with the sample itself, please file an issue
 in the [main Flutter repo](https://github.com/flutter/flutter/issues).
+
+## Package Imports
+
+The project uses the following packages:
+
+- `provider`
+- `go_router`
+- `window_size`
+
+## Installation and Running
+
+1. Make sure you have Flutter installed on your system
+   ```bash
+   flutter --version
+   ```
+
+2. Clone the repository and navigate to the project directory
+   ```bash
+   git clone <repository-url>
+   cd EA-Example-SimpleFlutter
+   ```
+
+3. Get the dependencies
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the application
+   ```bash
+   # For development
+   flutter run
+
+   # For specific platform
+   flutter run -d windows  # For Windows
+   flutter run -d macos   # For macOS
+   flutter run -d linux   # For Linux
+   flutter run -d chrome  # For Web
+   flutter run -d <device-id>  # For Android/iOS device
+   ```
